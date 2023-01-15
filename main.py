@@ -8,4 +8,7 @@ def mult(x,y):
     return (x*y)  
 
 def div(x,y):
-    return (x//y) 
+    return (x//y)
+
+def square(x):
+    return x*x
