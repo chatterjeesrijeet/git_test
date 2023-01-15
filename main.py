@@ -8,4 +8,10 @@ def mult(x,y):
     return (x*y)  
 
 def div(x,y):
-    return (x//y) 
+    return (x//y)
+
+def factorial(x):
+    if x <= 1:
+        return 1
+    return x*factorial(x-1)
+    
